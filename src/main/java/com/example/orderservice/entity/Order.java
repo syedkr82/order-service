@@ -19,4 +19,8 @@ public class Order {
 
     @Enumerated(EnumType.STRING)
     private OrderStatus status; // PENDING, COMPLETED, CANCELLED
+
+    public void setStatus(OrderStatus status) {
+        this.status = status;
+    }
 }
